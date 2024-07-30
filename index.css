@@ -1,0 +1,52 @@
+body{
+    background-image: url('./super.jpeg');
+}
+#main{
+    background-color: rgba(0, 0, 0, 0.296);
+    overflow: auto;
+}
+#logo{
+    width: 60px;
+    float: left;
+}
+#name{
+    float: left;
+    position: absolute;
+    left: 10vw;
+    color: aqua;
+    top: -3vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+#where{
+    color: aqua;
+    position: absolute;
+    left: 14vw;
+    top: 2vh;
+}
+
+#formsvalue{
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 32vw;
+    position: absolute;
+    left: 30vw;
+
+}
+
+label,input{
+    margin-left: 10vw;
+}
+label{
+    color: white;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    margin-left: 14vw;
+    color: black;
+}
+td{
+    text-align: center;
+}
+.percentage{
+    text-align: center;
+}
